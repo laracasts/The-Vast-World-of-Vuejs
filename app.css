@@ -1,0 +1,13 @@
+#tasks {
+    margin: 2em 0;
+}
+
+li button {
+    font-weight: bold;
+    background: none;
+    border: 0;
+    color: red;
+    padding: 0;
+    float: right;
+    margin-left: 10px;
+}
