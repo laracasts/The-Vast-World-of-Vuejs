@@ -1,1 +1,1 @@
-[See the demo](http://output.jsbin.com/rikedogino/1/).
+[See the demo](http://jsbin.com/hotalogipe/1/).
