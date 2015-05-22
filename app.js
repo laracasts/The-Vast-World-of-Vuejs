@@ -28,12 +28,6 @@ new Vue({
         }
     },
 
-    filters: {
-        inProcess: function(tasks) {
-            return tasks.filter(this.filters.inProcess);
-        }
-    },
-
     methods: {
         addTask: function(e) {
             e.preventDefault();
