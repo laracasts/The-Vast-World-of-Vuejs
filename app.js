@@ -54,13 +54,13 @@ new Vue({
         },
 
         completeAll: function() {
-            this.tasks.forEach(function(task) {
+            this.remaining.forEach(function(task) {
                 task.completed = true;
             });
         },
 
         clearCompleted: function() {
-            this.tasks = this.tasks.filter(this.filters.inProcess);
+            this.tasks = this.remaining;
         },
 
         removeTask: function(task) {
