@@ -5,16 +5,16 @@ new Vue({
     data: {
         tasks: [],
 
-        newTask: '',
+        newTask: ''
+    },
 
-        filters: {
-            inProcess: function(task) {
-                return ! task.completed;
-            },
+    filters: {
+        inProcess: function(task) {
+            return ! task.completed;
+        },
 
-            completed: function(task) {
-                return task.completed;
-            }
+        completed: function(task) {
+            return task.completed;
         }
     },
 
