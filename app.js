@@ -53,7 +53,9 @@ new Vue({
             task.completed = ! task.completed;
         },
 
-        completeAll: function() {
+        completeAll: function(e) {
+            e.preventDefault();
+
             this.tasks.forEach(function(task) {
                 task.completed = true;
             });
